@@ -18,14 +18,15 @@ inline void kadane(const vector<int> & array) {
 }
 
 int main() {
+	
 	int testCase = 0, length = 0;
 
     vector<int> array;	 
 	scanf("%d", &testCase);
 	
 	for(;testCase > 0; testCase--) {
+		
 	    scanf("%d", &length);
-   
 	    array.reserve(length);
 	    
 	    for(int i = 0; i < length; ++i) {
@@ -36,6 +37,8 @@ int main() {
 		
 		kadane(array);
 		array.clear();
+		
 	}
+	
 	return 0;
 }
