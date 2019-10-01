@@ -4,6 +4,7 @@
 using namespace std;
 
 inline void kadane(const vector<int> & array) {
+	
 	int sum = array.front();
 	int max_sum = sum;
 	
