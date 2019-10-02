@@ -20,9 +20,10 @@ inline void trappingRain(const std::vector<int>& array) {
 			std::get<0>(maxMinArray[i]) = maxL;
 		}
 		
-		std::get<1>(maxMinArray[array.size() - i]) = maxR;
-		if (array[array.size() - i] > maxR) {
-			maxR = array[array.size() - i];
+		int back_off = array.size() - i;
+		std::get<1>(maxMinArray[back_off]) = maxR;
+		if (array[back_off] > maxR) {
+			maxR = array[back_off];
 		}
 	}
 	
