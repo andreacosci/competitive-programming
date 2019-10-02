@@ -6,3 +6,5 @@ The algorithm will scan the array backwards. Every time it meets an item bigger 
 
 *Time complexity:* **O(n)**
 *Space Complexity:* **O(1)**
+
+# _under construction..._
