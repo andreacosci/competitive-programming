@@ -5,8 +5,6 @@
 /**
 * I implemented the first solution using a deque then, when I watched the solution,
 * I substituted the deque with the stack.
-* Like in the Leaders problem, I achieve constant extra space re-using the same array to
-* store the previous solution.
 */
 
 inline void nextLarger(std::vector<long>& array) {
