@@ -1,33 +1,19 @@
 #include <bits/stdc++.h> 
 
 inline void bar_eated(std::vector<int>& array) {
-	
-	if (array.size() == 1) {
-		std::cout << "1 0";
-		return;
-	}
-	
 	int alice = 0;
+	int leftSum = array.front();
+	int rightSum = array.back();
 	
-	std::vector<int> prefix;
-	std::vector<int> sufx;
+	int i = 0, j = array.size() - 1;
 	
-	sufx.reserve(array.size());
-	prefix.reserve(array.size());
-	
-	sufx.push_back(array.back());
-	prefix.push_back(array.front());
-	
-	for(int i = 1, j = array.size() - 2; j >= 0; --j, ++i) {
-		prefix.push_back(prefix[i - 1] + array[i]);
-		sufx.push_back(sufx.back() + array[j]);
-	}
-	
-	auto a = prefix.begin();
-	auto b = sufx.rbegin();
-	
-	while(*a <= *b) {
-		alice++; a++; b++;
+	while(i <= j) {
+		if (leftSum <= rightSum) {
+			leftSum += array[++i];
+			alice++;
+		}
+		else
+			rightSum += array[--j];
 	}
 	
 	std::cout << alice << " " << array.size() - alice;
@@ -52,3 +38,4 @@ int main() {
 	
 	return 0;
 }
+
