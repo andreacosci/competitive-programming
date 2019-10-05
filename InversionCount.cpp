@@ -1,12 +1,12 @@
 #include <bits/stdc++.h> 
 
-inline int merge(std::vector<int>& array, int l, int m, int r) {
-	int i, j, k;
-	int n1 = m -l + 1;
-	int n2 = r - m;
-	int inv = 0;
+inline long merge(std::vector<long>& array, long l, long m, long r) {
+	long i, j, k;
+	long n1 = m -l + 1;
+	long n2 = r - m;
+	long inv = 0;
 	
-	int L[n1 + 1], R[n2 + 1];
+	long L[n1 + 1], R[n2 + 1];
 	
     for (i = 0; i < n1; i++) 
         L[i] = array[l + i]; 
@@ -28,11 +28,11 @@ inline int merge(std::vector<int>& array, int l, int m, int r) {
 	return inv;
 }
 
-inline int inversionCount(std::vector<int>& array, int l, int r) {
-	int inv = 0;
+inline long inversionCount(std::vector<long>& array, long l, long r) {
+	long inv = 0;
 	
 	if (l < r) {
-		int m = l + (r - l)/2;
+		long m = l + (r - l)/2;
 		inv = inversionCount(array, l, m);
 		inv += inversionCount(array, m+1, r);
 		inv += merge(array, l, m, r);
@@ -44,16 +44,16 @@ inline int inversionCount(std::vector<int>& array, int l, int r) {
 int main() {
 	int testCase;
 	scanf("%d", &testCase);
-	std::vector<int> array;
+	std::vector<long> array;
 	
 	for(;testCase-- > 0;) {
-		int size = 0;
-		scanf("%d", &size);
+		long size = 0;
+		scanf("%lo", &size);
 		array.reserve(size);
 		
 		for(;size-- > 0;) {
-			int tmp = 0;
-			scanf("%d", &tmp);
+			long tmp = 0;
+			scanf("%lo", &tmp);
 			array.push_back(tmp);
 		}
 		
