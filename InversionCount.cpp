@@ -13,7 +13,7 @@ inline long merge(std::vector<long>& array, long l, long m, long r) {
     for (j = 0; j < n2; j++) 
         R[j] = array[m + 1+ j]; 
         
-    L[n1] = R[n2] = INT_MAX;
+    L[n1] = R[n2] = LONG_MAX;
 	i = j = 0;
 	k = l;
 	for(; k < r; k++) {
