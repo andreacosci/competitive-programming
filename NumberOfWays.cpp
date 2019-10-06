@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 /**
- * 	A slightly different version of this solution:
+ * 	A version of this solution:
  * 	https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/code/NumberWays.cpp
  */ 
 
