@@ -10,7 +10,7 @@ int main() {
 	n--;
 	vector<tuple<int, int, int>> array;
 	auto with = vector<int>(n + 1, 0);
-	array.reserve(n);
+	array.reserve(n*(n+1)/2);
 	
 	for(int i = 0; i < n; i++) 
 		for(int j = 0; j < i + 1; j++)
