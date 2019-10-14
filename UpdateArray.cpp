@@ -8,7 +8,7 @@ int main() {
 	cin >> t;
 	while(t--) {
 		cin >> n >> u;
-		vector<int> diff(n + 1, 0);
+		vector<int64_t> diff(n + 1, 0);
 		
 		while(u--) {
 			cin >> l >> r >> v;
