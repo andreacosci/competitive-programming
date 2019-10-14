@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/**
+* prime algorithm from : https://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/
+*/
 inline bool isPrime(int n) { 
 	
     if (n <= 1) 
