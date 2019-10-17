@@ -48,7 +48,7 @@ int main() {
 	 * By sorting we will find (in case of value collision)
 	 * array's element first. So we put them in the fenwick tree.
 	 * When we'll find L R X query, in the range L R we will find
-	 * ones equals to the number of elements smaller than X we found 
+	 * ones equals to the number of elements <= X we found 
 	 * before. So the prefix sum in range L R will be the answer.
 	 */ 
 	sort(array.begin(), array.end());
