@@ -1,5 +1,9 @@
 #include <bits/stdc++.h>
 
+/**
+* Exam: 06/07/18
+* Time: h*w + q
+**/
 using namespace std;
 int main() {
 	
