@@ -12,25 +12,26 @@ void solve(vector<int>& a) {
 	
 	int n = a.size();
 	
-	vector<int> inc(n, 0);
-	int next = 1;
+	vector<int> inc(1);
+	inc.reserve(n);
+	
 	inc[0] = a[0];
 	
 	for(int i = 1; i < n; i++) {
-		auto it = lower_bound(inc.begin(), inc.begin() + next, a[i]);
+		auto it = lower_bound(inc.begin(), inc.end(), a[i]);
 		
-		if (it == inc.begin() + next)
-			inc[next++] = a[i];
+		if (it == inc.end())
+			inc.push_back(a[i]);
 		else
 			*it = a[i];
 	}
 	
-	cout << next << '\n';
+	cout << inc.size() << '\n';
 }
                                                                                                                    
 int main() {
 	ios_base::sync_with_stdio(false);
-  cin.tie(0);
+    cin.tie(0);
 	int test; 
 	cin >> test;
 	while(test--) {
@@ -43,4 +44,5 @@ int main() {
 	}
 	return 0;  	
 }
+
 
