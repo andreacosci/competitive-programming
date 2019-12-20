@@ -16,7 +16,6 @@ int solve(vector<vector<int>>& adj, vector<array<int, 2>>& dp, vector<array<bool
 				ans += min(solve(adj, dp, visited, *it , 1, u), solve(adj, dp, visited, *it, 0, u));
 			else
 				ans += solve(adj, dp, visited, *it, 1, u);
-			
 		}
 	}
 	
