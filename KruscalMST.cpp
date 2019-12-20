@@ -33,10 +33,6 @@ struct edge {
     int index;
 };
 
-bool compare(const edge &a, const edge &b){
-    return a.w < b.w;
-}
-
 int main() {
 	
 	ios::sync_with_stdio(false);
