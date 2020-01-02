@@ -13,7 +13,7 @@ The algorithm will scan the array backwards. Every time it meets an item bigger 
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -21,7 +21,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -29,7 +29,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -37,7 +37,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -45,7 +45,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -53,7 +53,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -61,7 +61,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -69,7 +69,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -77,7 +77,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -85,7 +85,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -93,7 +93,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -101,7 +101,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -109,7 +109,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -117,13 +117,13 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 ## Alice, Bob and Chocolate
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -131,7 +131,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -139,7 +139,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -147,7 +147,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -155,7 +155,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -163,7 +163,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -171,7 +171,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -179,7 +179,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -187,7 +187,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -195,7 +195,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -203,7 +203,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -211,7 +211,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -219,7 +219,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -227,7 +227,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -235,7 +235,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -243,7 +243,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -251,7 +251,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -259,7 +259,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -267,7 +267,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -275,7 +275,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -283,7 +283,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -291,7 +291,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -299,7 +299,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -307,7 +307,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -315,7 +315,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -323,7 +323,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -331,7 +331,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -339,7 +339,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -347,7 +347,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -355,7 +355,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -363,7 +363,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -371,7 +371,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -379,7 +379,7 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
 
@@ -387,6 +387,6 @@ Description
 Description
 
 *Time complexity:* **O( :) )**
-+Space Complexity:* **O( :) )**
+*Space Complexity:* **O( :) )**
 
 [Source Code](https://www.google.it)
