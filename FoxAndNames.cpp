@@ -67,7 +67,6 @@ int main() {
 	int vis[26];
 	int rec[26];
 	stack<int> deg;
-	
 	memset(vis, 0, sizeof(vis));
 	memset(rec, 0, sizeof(rec));
 	
