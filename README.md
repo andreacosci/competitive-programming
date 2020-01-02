@@ -7,6 +7,6 @@ The algorithm will scan the array backwards. Every time it meets an item bigger 
 *Time complexity:* **O(n)**
 *Space Complexity:* **O(1)**
 
-[CODE:](https://github.com/andreacosci/competitive-programming/blob/master/LeadersInArray.cpp)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LeadersInArray.cpp)
 
 # _under construction..._
