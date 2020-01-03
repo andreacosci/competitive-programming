@@ -68,10 +68,10 @@ We use a greedy approach. We sort the array of bars and the we simulate the cons
 ## Finding Team Member
 Description
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n^2)**
+*Space Complexity:* **O(n^2)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/TeamMembers.cpp)
 
 ## Inversion Count
 Description
