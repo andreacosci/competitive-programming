@@ -10,12 +10,14 @@ The algorithm will scan the array backwards. Every time it meets an item bigger 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LeadersInArray.cpp)
 
 ## Kadane's Algorithm
-Description
+We set a variable sum and a variable maximum to the first element of the array, then we scan from the second element to the end doing the following steps: 
+1) if sum is negative we set the sum to the element consider in the current iteration. Otherwise we add this element to the sum.
+2) if this sum is greater than the previous maximum, we update it.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(1)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Kadane.cpp)
 
 ## Missing Number in Array
 Description
