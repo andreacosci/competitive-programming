@@ -5,7 +5,7 @@ Competitive Programming and Contests Homeworks collection
 The algorithm will scan the array backwards. Every time it meets an item bigger than the last leader, will save him and update the last leader. To achieve constant memory, the algorithm will store each leader in the last free previous visited position. In fact at the k-th iteration we can have found at most (k - 1) leaders.
 
 *Time complexity:* **O(n)**
-*Space Complexity:* **O(1)**
+*Space Complexity:* **O(n)**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LeadersInArray.cpp)
 
@@ -15,7 +15,7 @@ We set a variable sum and a variable maximum to the first element of the array, 
 2) if this sum is greater than the previous maximum, we update it.
 
 *Time complexity:* **O(n)**
-*Space Complexity:* **O(1)**
+*Space Complexity:* **O(n)**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Kadane.cpp)
 
