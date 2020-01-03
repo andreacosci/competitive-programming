@@ -58,12 +58,12 @@ Solution similar to the previous one. We use a stack and we scan the array backw
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/NextLargerElement.cpp)
 
 ## Towers
-Description
+We use a greedy approach. We sort the array of bars and the we simulate the construction of the towers.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n log(n))**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Towers.cpp)
 
 ## Finding Team Member
 Description
