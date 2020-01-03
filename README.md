@@ -20,10 +20,10 @@ We set a variable sum and a variable maximum to the first element of the array, 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Kadane.cpp)
 
 ## Missing Number in Array
-Description
+We use gauss formula to calculate the first n-natural number sum. Then we subtract each element to our value. In the end the missing element will remain in the variable.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(1)**
 
 [Source Code](https://www.google.it)
 
