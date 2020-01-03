@@ -36,20 +36,26 @@ We compute and store the maximum element on the left ad on the right of each ele
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/TrappingRain.cpp)
 
 ## Sliding Window Maximum
-Description
+We describe the window as a queue. We start with the window in position <-k, -1> then we move by one each iteration and we do the following step:
+1) Remove elements no longer in the window
+2) Insert the new element in the queue till the elements are smaller or equal to it and remove all these elements. 
+3) The top of the queue will be our current maximum
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/SlidingWindows.cpp)
 
 ## Next Larger Element
-Description
+Solution similar to the previous one. We use a stack and we scan the array backwards doing the following steps:
+1) Removing from the stack each element smaller or equal the current element of the iteration.
+2) If the stack is empty the element hasn't a next larger element, so put -1. Otherwise put the stack top.
+3) Push the current element to the stack so, if the stack is not empty, this element will possibly be the upper bound of the next element or will be removed if smaller.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/NextLargerElement.cpp)
 
 ## Towers
 Description
