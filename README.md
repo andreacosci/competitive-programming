@@ -25,15 +25,15 @@ We use gauss formula to calculate the first n-natural number sum. Then we subtra
 *Time complexity:* **O(n)**
 *Space Complexity:* **O(1)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/MissingNumber.cpp)
 
 ## Trapping Rain Water
-Description
+We compute and store the maximum element on the left ad on the right of each element. Then the solution locally will be the minimum between the two maximum minus the value of the consider element.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/TrappingRain.cpp)
 
 ## Sliding Window Maximum
 Description
