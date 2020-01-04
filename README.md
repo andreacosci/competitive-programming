@@ -175,7 +175,7 @@ We sort both the input array and the Q array. Then the sum will be, for each ele
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LittleGirl.cpp)
 
 ## Megacity
-We create an array of pairs: <d, p> where d is the eulerian distance and p is the number of habitants. We sort by shorter distance and highest amount of habitants. Then we binary search the distance for the amount of habitants needed.
+We create an array of pairs: <d, p> where d is the eulerian distance and p is the number of habitants. We sort by shorter distance and highest amount of habitants. We prefixsum the habitants and then we binary search for the amount of habitants needed.
 
 *Time complexity:* **O(n log n)**
 *Space Complexity:* **O(n)**
@@ -188,7 +188,7 @@ Description
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/FindPair.cpp)
 
 ## Two Heaps
 Description
