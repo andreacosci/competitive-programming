@@ -154,28 +154,33 @@ Then while i <= j we do the following steps:
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/AliceBobChocolate.cpp)
 
 ## Number Of Ways
-Description
+Solution Adapted From:
+https://github.com/rossanoventurini/CompetitiveProgramming/blob/master/Solutions.md#NumberWays
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+Let S be the sum of the array's elements. If the sum module 3 isn't 0 then there's no solution. Otherwise, we compute the array C which stores in position i the number of suffixes of a[i .. n] that sums to S/3. In the end we compute the sum of the prefixes of a and, every time a prefix i sums to S/3, we add c[i+2] to the result.
 
-[Source Code](https://www.google.it)
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
+
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/NumberOfWays.cpp)
 
 ## Little Girl & Maximum Sum
-Description
+We use a support array Q set all to zeros. Foreach query <l, r> we do: Q[l] += 1, Q[r] -= 1.
+Then we do the Q array prefix sum.
+We sort both the input array and the Q array. Then the sum will be, for each element, Q[i] times A[i].
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n log(n) + q log(q) )**
+*Space Complexity:* **O( n + q )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LittleGirl.cpp)
 
 ## Megacity
-Description
+We create an array of pairs: <d, p> where d is the eulerian distance and p is the number of habitants. We sort by shorter distance and highest amount of habitants. Then we binary search the distance for the amount of habitants needed.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n log n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Megacity.cpp)
 
 ## Find Pair
 Description
