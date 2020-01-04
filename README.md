@@ -344,12 +344,13 @@ Description
 [Source Code](https://www.google.it)
 
 ## Alternative Thinking
-Description
+A very simple mathematical solution is to count the number of consecutive equal and not equal digits and store them into variables. Lets call those variable eq and dif. The answer will be dif + 1 + min(eq, 2).
+Here a possible explanation: https://codeforces.com/blog/entry/21885.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/AlternativeThinking.cpp)
 
 ## LMS
 Description
