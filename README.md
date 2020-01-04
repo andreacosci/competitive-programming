@@ -183,7 +183,9 @@ We create an array of pairs: <d, p> where d is the eulerian distance and p is th
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Megacity.cpp)
 
 ## Find Pair
-We solve the problem mathematically. We sort the number and the first number of the couple will be the (k-1/n) because we have n possible couple wich start with the i-th number. Then we have to count how many elements equals to the first we have (let this number be r), and let l be the first occurence position of this number in the array. The second number will be: ((k-1) - l*n)/ r.
+We sort the array first. In a problem with no repetition the answer would be <a[k/n], a[k % n]> but this is not the case.
+We need to weight the elements by their number of occurences. The first element can be found easly by a[k/n]. The second we have to count the occurencies of the first element let it be R, the position where we found his first occurency let it be L. So the second number will be 
+(k - L*n)/R.
 
 *Time complexity:* **O(n log(n))**
 *Space Complexity:* **O(n)**
