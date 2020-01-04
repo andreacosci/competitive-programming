@@ -106,20 +106,28 @@ We know that in-order visit will print a sorted array if do on a BST. So we just
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/CheckBST.hpp)
 
 ## Preorder Traversal and BST
-Description
+Create a stack and set root variable to the smallest value possible. Then, for each element in the array (lets them be a[i]) do the following steps:
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+1) if a[i] is smaller than the root return false
+2) otherwise remove each element from the stack top smaller than a[i] and make the last removed the new root.
+3) push a[i] into the stack
 
-[Source Code](https://www.google.it)
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
+
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/PreorderTraversal.cpp)
 
 ## Maximum Path Sum
-Description
+We maintain two values in the recoursive call:
+1) Maximum root to leaf path sum for the subtree rooted under current node.
+2) The maximum path sum between leaves.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+For every visited node X, we find the maximum root to leaf sum in left and right subtrees of X. We add the two values with X->data, and compare the sum with maximum path sum found so far.
 
-[Source Code](https://www.google.it)
+*Time complexity:* **O( n )**
+*Space Complexity:* **O( n )**
+
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/MaximumPathSum.hpp)
 
 ## Ilya & Queries
 Description
