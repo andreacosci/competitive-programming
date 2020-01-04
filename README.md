@@ -183,10 +183,10 @@ We create an array of pairs: <d, p> where d is the eulerian distance and p is th
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Megacity.cpp)
 
 ## Find Pair
-Description
+We solve the problem mathematically. We sort the number and the first number of the couple will be the (k-1/n) because we have n possible couple wich start with the i-th number. Then we have to count how many elements equals to the first we have (let this number be r), and let l be the first occurence position of this number in the array. The second number will be: ((k-1) - l*n)/ r.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n log(n))**
+*Space Complexity:* **O(n)**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/FindPair.cpp)
 
