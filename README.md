@@ -193,7 +193,6 @@ We need to weight the elements by their number of occurences. The first element 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/FindPair.cpp)
 
 ## Two Heaps
-Description
 
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
@@ -201,12 +200,12 @@ Description
 [Source Code](https://www.google.it)
 
 ## Update the Array
-Description
+We simply use a BIT tree to update/query the prefix sum in log(n) time.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( (u+q)log(n))**
+*Space Complexity:* **O( n )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/UpdateArrayBIT.cpp)
 
 ## Nested Segments
 Description
