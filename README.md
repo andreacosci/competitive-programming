@@ -90,20 +90,20 @@ We consider the number as an array of digits. We pick the smallest even digit (s
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LargestEvenNumber.cpp)
 
 ## Firing Employees
-Description
+We use a DFS + DP. We store the already calculated rank in the array and, for each element without a rank, we do a depth first search to compute the rank. We do this search foreach element but only once because we store previously calculated results. Then we only need to check which had a prime rank.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/FiringEmpolyees.cpp)
 
 ## Check for BST
-Description
+We know that in-order visit will print a sorted array if do on a BST. So we just do an in-order visit and we propagate the last number we saw, if it's bigger than his successor then we return false.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/CheckBST.hpp)
 
 ## Preorder Traversal and BST
 Description
