@@ -66,28 +66,28 @@ We use a greedy approach. We sort the array of bars and the we simulate the cons
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Towers.cpp)
 
 ## Finding Team Member
-Description
+We use a greedy approach. We build an array of triplets with the strenght of the team, the first and the second person index. Then we sort by the highest strenght. In the end we scan the array and we take the best possible team.
 
-*Time complexity:* **O(n^2)**
-*Space Complexity:* **O(n^2)**
+*Time complexity:* **O(n log(n))**
+*Space Complexity:* **O(n)**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/TeamMembers.cpp)
 
 ## Inversion Count
-Description
+We use a modified version of merge sort. Each time we pick a new element from the right array, in the merge phases, we add to the inversion counter the number of elements on the left array.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n log(n) )**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/InversionCount.cpp)
 
 ## Largest Even Number
-Description
+We consider the number as an array of digits. We pick the smallest even digit (smallest odd if the number hasn't any even digits) and we sort the remaining digits using the counting sort. We build the number picking the sorted digits from the biggest to the lowest and then we put the previously picked digit.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LargestEvenNumber.cpp)
 
 ## Firing Employees
 Description
