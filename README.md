@@ -208,12 +208,12 @@ We simply use a BIT tree to update/query the prefix sum in log(n) time.
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/UpdateArrayBIT.cpp)
 
 ## Nested Segments
-Description
+We remap the segments using their position in the sorted array. Then we sort by higher left / higher right first. Then we build a BIT tree and, forech segment <L, R>, we calc the sum [L, R], and then we increse the R position by one. 
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n log(n))**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/NestedSegments.cpp)
 
 ## Pashmak and Parmida's problem
 Description
@@ -224,12 +224,12 @@ Description
 [Source Code](https://www.google.it)
 
 ## Nested Segments 2.0
-Description
+The same algorithm with the segment tree instead.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n log(n) )**
+*Space Complexity:* **O( n) **
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/NestedSegmentsST.cpp)
 
 ## Circular RMQ
 Description
