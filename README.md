@@ -135,14 +135,23 @@ The current value of the prefix sum is the previous computed value (e.g. prefix[
 
 *Time complexity:* **O( n )**
 *Space Complexity:* **O( n )**
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Ilya.cpp)
 
 ## Alice, Bob and Chocolate
-Description
+We simulate Alice and Bob eating the chocolate.
+We use 4 variables:
+a) an i index to indicate the bar consider by Alice in a certain iteration set to the first position in the array.
+b) a leftSum variable to indicate the amount of chocolate eaten by Alice in a certain iteration set to the first value in the array.
+We use simmetric variable for Bob: j and rightSum set to the last position in the array and the last value in the array.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+Then while i <= j we do the following steps:
+1) if leftSum is smaller of equals to rightSum, we add the chocolate i to the leftSum and increase i.
+2) otherwise we add the chocolate j to the rightSum and decrease j.
 
-[Source Code](https://www.google.it)
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
+
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/AliceBobChocolate.cpp)
 
 ## Number Of Ways
 Description
