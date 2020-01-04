@@ -2,7 +2,7 @@
 Competitive Programming and Contests Homeworks collection
 
 ## Leaders in the array
-The algorithm will scan the array backwards. Every time it meets an item bigger than the last leader, will save him and update the last leader. To achieve constant memory, the algorithm will store each leader in the last free previous visited position. In fact at the k-th iteration we can have found at most (k - 1) leaders.
+The algorithm will scan the array backwards. Every time it meets an item bigger than the last leader, will save him and update the last leader. To achieve constant extra memory, the algorithm will store each leader in the last free previous visited position. In fact at the k-th iteration we can have found at most (k - 1) leaders.
 
 *Time complexity:* **O(n)**
 *Space Complexity:* **O(n)**
@@ -130,10 +130,11 @@ For every visited node X, we find the maximum root to leaf sum in left and right
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/MaximumPathSum.hpp)
 
 ## Ilya & Queries
-Description
+We compute a prefix sum to answer all queries. Lets consider the i-th iteration of the prefix sum.
+The current value of the prefix sum is the previous computed value (e.g. prefix[i - 1]) plus 1 if i and i-1 character are equals, 0 otherwise.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n )**
+*Space Complexity:* **O( n )**
 
 ## Alice, Bob and Chocolate
 Description
