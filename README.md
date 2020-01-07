@@ -361,12 +361,15 @@ Description
 [Source Code](https://www.google.it)
 
 ## WoodCutters
-Description
+We sort the trees by position, then we try to let them fall to the left if we can otherwise we try the right.
+This greedy apporach will give us the best solution because:
+if we let the tree fall to the left he's not stealing space to other trees.
+if we let the tree fall to the right is at most contending position with another tree.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n )**
+*Space Complexity:* **O( n )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Woodcutters.cpp)
 
 ## Queue
 Description
