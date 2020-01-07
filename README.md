@@ -312,10 +312,10 @@ Description
 [Source Code](https://www.google.it)
 
 ## LPS
-Description
+We reverse the second string and we run the Longest Common Substring beetwen them.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( s1 * s2)**
+*Space Complexity:* **O( s1 * s2 )**
 
 [Source Code](https://www.google.it)
 
