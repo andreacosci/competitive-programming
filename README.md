@@ -377,10 +377,10 @@ Description
 [Source Code](https://www.google.it)
 
 ## X Total Shapes
-Description
+We run a DFS to count the number of trees is the forest (the connected component). We use a copy of the matrix as a visited bitmask, and we check for neighboor in the four direction (Nord, Sud, East, West).
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n^2 )**
+*Space Complexity:* **O( n^2 )**
 
 [Source Code](https://www.google.it)
 
