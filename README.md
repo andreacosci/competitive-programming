@@ -385,12 +385,12 @@ Description
 [Source Code](https://www.google.it)
 
 ## Is Bipartite
-Description
+We run a BFS where we color the neighboor with the opposite color of the current node. If we run into a contraddiction the problem is impossible.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( E + V )**
+*Space Complexity:* **O( E + V )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/IsBipartite.hpp)
 
 ## Fox And Names
 We build a DAG 26*26, where nodes are alphabet letter and edges identifies a partial ordering. 
