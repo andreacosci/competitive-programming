@@ -353,12 +353,12 @@ Here a possible explanation: https://codeforces.com/blog/entry/21885.
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/AlternativeThinking.cpp)
 
 ## LMS
-Description
+We scan the array backwards, and we store the last element as the maximum so far. If the element is greater or equals to the maximum we push him in the solution and set it as new maximum.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O(n)**
+*Space Complexity:* **O(n)**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LexicographicallyMaximumSubsequence.cpp)
 
 ## WoodCutters
 We sort the trees by position, then we try to let them fall to the left if we can otherwise we try the right.
