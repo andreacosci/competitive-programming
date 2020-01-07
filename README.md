@@ -417,9 +417,12 @@ Description
 [Source Code](https://www.google.it)
 
 ## MST
-Description
+For this problem we used a well known algorithm: Kruskal Algorith.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+A description of the algorithm here:
+https://en.wikipedia.org/wiki/Kruskal%27s_algorithm
 
-[Source Code](https://www.google.it)
+*Time complexity:* **O( E log(V) )**
+*Space Complexity:* **O( E + V )**
+
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/MST.cpp)
