@@ -320,18 +320,18 @@ Description
 [Source Code](https://www.google.it)
 
 ## N Meetings in one room
-Description
+We sort by lowest ending first, then we greedy picks all the meeting that doesn't conflict with the previous one. 
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n log(n) )**
+*Space Complexity:* **O( n )**
 
 [Source Code](https://www.google.it)
 
 ## Magic Numbers
-Description
+We use an array to remember if the number from [0..i] was a magic number and, foreach digit in the string, we check all the combinations.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n )**
+*Space Complexity:* **O( n )**
 
 [Source Code](https://www.google.it)
 
