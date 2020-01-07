@@ -336,12 +336,12 @@ Description
 [Source Code](https://www.google.it)
 
 ## Wilbur & Array
-Description
+If I wants to make the i-th element equals I need to change all the element from [i..n]. So the solution will be the distance between the consecutive pair in the array.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n )**
+*Space Complexity:* **O( n )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/WilburAndTheArray.cpp)
 
 ## Alternative Thinking
 A very simple mathematical solution is to count the number of consecutive equal and not equal digits and store them into variables. Lets call those variable eq and dif. The answer will be dif + 1 + min(eq, 2).
