@@ -393,20 +393,30 @@ Description
 [Source Code](https://www.google.it)
 
 ## Fox And Names
-Description
+We build a DAG 26*26, where nodes are alphabet letter and edges identifies a partial ordering. 
+We consider pairs of consecutive words, lets call them i and i+1.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+if i is a prefix of i+1 we don't need to add edges and we go to next pair.
+if i+1 is a prefix of i the problem is impossible.
 
-[Source Code](https://www.google.it)
+if i and i + 1 have a common prefix, then go to the first letter not in the prefix of i and the first of i+1.
+There's an edge between those two letters going from i to i+1.
+
+Check for no loop otherwise is impossible. Then we just print a topological sort of the graph.
+
+let n be the number of strings and s the length of the longest string.
+*Time complexity:* **O( n*s )**
+*Space Complexity:* **O( n*s )**
+
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/FoxAndNames.cpp)
 
 ## Learning Languages
-We have a special case when none know any language, and we have just to add 1 to the general solution. In the general solution we count the connected components in the graph people + language, where an edge means "knows that language" or "that language is known by". Then the result is the number of trees in the dfs forest - 1, because is the minimum number of edges needed to connect all the trees.
+We have a special case when none know any language, and we have just to add 1 to the general solution. In the general solution we count the connected components in the graph people + language, where an edge means "knows that language" or "that language is known by". Then the result is the number of trees in the dfs (the dfs is done using as source only people and not languages, because we don't need to use all languages) forest - 1, because is the minimum number of edges needed to connect all the trees.
 
 *Time complexity:* **O( E + V )**
 *Space Complexity:* **O( E + V )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LearningLanguages.cpp)
 
 ## Checkposts
 Description
