@@ -401,10 +401,10 @@ Description
 [Source Code](https://www.google.it)
 
 ## Learning Languages
-Description
+We have a special case when none know any language, and we have just to add 1 to the general solution. In the general solution we count the connected components in the graph people + language, where an edge means "knows that language" or "that language is known by". Then the result is the number of trees in the dfs forest - 1, because is the minimum number of edges needed to connect all the trees.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( E + V )**
+*Space Complexity:* **O( E + V )**
 
 [Source Code](https://www.google.it)
 
