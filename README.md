@@ -248,10 +248,13 @@ Description
 [Source Code](https://www.google.it)
 
 ## LCS
-Description
+We use DP and we store in the position <i, j> of the table the LCS of the prefix <0..i> and <0..j> for the first and the second string.
+The base case are that at least one is the empty string. In this case the LCS is 0.
+If the i-th and j-th character are equals we just extend the previous LCS(i-1, j-1) adding the new character; otherwise we pick the longest LCS between LCS(i, j-1) and LCS(i-1, j).
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+let n, m be the length of the two strings.
+*Time complexity:* **O( nm )**
+*Space Complexity:* **O( nm )**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Lcs.cpp)
 
