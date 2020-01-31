@@ -267,10 +267,11 @@ The DP algorithm use a <N + 1, C + 1> table. DP<i, j> is the max profit using el
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Knapsack.cpp)
 
 ## Subset Sum
-Description
+We can split in two subset with equals sums iff element sum is an even number. Then we use a table <sum/2 + 1, n + 1>. DP<i, j> is true if we can make a subset of sum i using the first j-th elements.  Thus we have dp[i][j] = dp[i][j] || dp[i - a[j-1]][j-1] if the element is not grater than i, otherwise we pick the previous solution dp[i][j] = dp[i][j-1]. The answer will be in DP<sum, n> because if I can make half of the sum with some elements, the one we didn't pick (and they exists because sum is the half of total elements sum) they will sum to the other half.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+let S be the total sum of the elements.
+*Time complexity:* **O( Sn )**
+*Space Complexity:* **O( Sn )**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/SubsetSum.cpp)
 
