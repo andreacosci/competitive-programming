@@ -193,11 +193,12 @@ We need to weight the elements by their number of occurences. The first element 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/FindPair.cpp)
 
 ## Two Heaps
+The first answer is the product between the count of different cube we have in each pile. So the best way to separate them is to put the same number one in the first pile, the second in the other and the other put aside. 
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n log n )**
+*Space Complexity:* **O( n )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/TwoHeap.cpp)
 
 ## Update the Array
 We simply use a BIT tree to update/query the prefix sum in log(n) time.
