@@ -259,12 +259,12 @@ let n, m be the length of the two strings.
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Lcs.cpp)
 
 ## 0-1 Knapsack
-Description
+The DP algorithm use a <N + 1, C + 1> table. DP<i, j> is the max profit using element from <0..i> having a maximum capacity of j. If we can take the i-th element we have that DP[i, j] = max(DP[i-1, j], K[i-1, j-w[i]] + v[i]) where v[i] is the value of that element. Otherwise we pick the previous solution DP[i-1, j]. 
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( nW )**
+*Space Complexity:* **O( nW )**
 
-[Source Code](hhttps://github.com/andreacosci/competitive-programming/blob/master/Knapsack.cpp)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Knapsack.cpp)
 
 ## Subset Sum
 Description
