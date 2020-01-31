@@ -284,18 +284,25 @@ In this DP problem the table store the minimum number of jumps to reach the i-th
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/MinimumJump.cpp)
 
 ## Edit Distance
-Description
+It's similar but lightly harder than LCS solution. We use a table with the size of the two strings like the lcs. If the character are the same we take the ED(i-1, j-1). Otherwise we can perform one of the 3 operations, so we take the max between:
+Insert: ED(i, j-1)
+Remove: ED(i-1, j)
+Replace: ED(i-1, j-1)
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+
+*Time complexity:* **O( nm )**
+*Space Complexity:* **O( nm )**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/EditDistance.cpp)
 
 ## LIS
-Description
+DP solution is quadratic. We propose a nLogn solution. 
+We use a vector with the longest increasing subsequence, foreach element of A we binary search the lower bound of that element in our current solution (that is an increasing subsequence so it's sorted):
+if it's greater than all the element in out solution we push it back.
+if it's a lower bound of an element x, we replace that element with this found.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( nlogn )**
+*Space Complexity:* **O( n )**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LIS.cpp)
 
