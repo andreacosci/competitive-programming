@@ -253,7 +253,7 @@ Description
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Lcs.cpp)
 
 ## 0-1 Knapsack
 Description
@@ -261,7 +261,7 @@ Description
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
 
-[Source Code](https://www.google.it)
+[Source Code](hhttps://github.com/andreacosci/competitive-programming/blob/master/Knapsack.cpp)
 
 ## Subset Sum
 Description
@@ -269,7 +269,7 @@ Description
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/SubsetSum.cpp)
 
 ## Minimum Number of Jumps
 Description
@@ -277,7 +277,7 @@ Description
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/MinimumJump.cpp)
 
 ## Edit Distance
 Description
@@ -285,7 +285,7 @@ Description
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/EditDistance.cpp)
 
 ## LIS
 Description
@@ -293,7 +293,7 @@ Description
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LIS.cpp)
 
 ## LBS
 Description
