@@ -227,7 +227,7 @@ Description
 The same algorithm with the segment tree instead.
 
 *Time complexity:* **O( n log(n) )**
-*Space Complexity:* **O( n) **
+*Space Complexity:* **O( n ) **
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/NestedSegmentsST.cpp)
 
@@ -276,10 +276,10 @@ let S be the total sum of the elements.
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/SubsetSum.cpp)
 
 ## Minimum Number of Jumps
-Description
+In this DP problem the table store the minimum number of jumps to reach the i-th rock. Foreach element we iterate the previous i-1 elements and we check if we can reach the i-th position from that rock we update the value if it's smaller than the previous stored.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n^2 )**
+*Space Complexity:* **O( n )**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/MinimumJump.cpp)
 
