@@ -217,12 +217,17 @@ We remap the segments using their position in the sorted array. Then we sort by 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/NestedSegments.cpp)
 
 ## Pashmak and Parmida's problem
-Description
+https://codeforces.com/blog/entry/13430
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+We remap the integer. Then Let li be f(1, i, ai) and let ri be f(i, n, ai), we want to find the number of pairs (i, j) such that i < j and li > rj. 
+For computing lis, we can store an array named cnt to show the number of occurence of any i with cnt<i>. To do this, we can iterate from left to right and update cnt[i]; also, li would be equal to cnt[ai] at position i (ri s can be computed in a similar way).
 
-[Source Code](https://www.google.it)
+Beside that, we get help from binary-indexed trees. We use a Fenwick tree and iterate from right to left. In each state, we add the number of elements less than li to answer and add ri to the Fenwick tree.
+
+*Time complexity:* **O( n log n )**
+*Space Complexity:* **O( n )**
+
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Parmida.cpp)
 
 ## Nested Segments 2.0
 The same algorithm with the segment tree instead.
