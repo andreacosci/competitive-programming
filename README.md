@@ -220,7 +220,7 @@ We remap the segments using their position in the sorted array. Then we sort by 
 https://codeforces.com/blog/entry/13430
 
 We remap the integer. Then Let li be f(1, i, ai) and let ri be f(i, n, ai), we want to find the number of pairs (i, j) such that i < j and li > rj. 
-For computing lis, we can store an array named cnt to show the number of occurence of any i with cnt<i>. To do this, we can iterate from left to right and update cnt[i]; also, li would be equal to cnt[ai] at position i (ri s can be computed in a similar way).
+For computing lis, we can store an array named cnt to show the number of occurence of any i with cnt<i>. To do this, we can iterate from left to right and update cnt<i>; also, li would be equal to cnt[ai] at position i (ri s can be computed in a similar way).
 
 Beside that, we get help from binary-indexed trees. We use a Fenwick tree and iterate from right to left. In each state, we add the number of elements less than li to answer and add ri to the Fenwick tree.
 
