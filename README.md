@@ -253,6 +253,14 @@ The core part about the Mo's algorithm we used to solve offline query is to buil
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/PowerfulArray.cpp)
 
+## TreeAndQueries
+
+
+*Time complexity:* **O( n sqrt(n) )**
+*Space Complexity:* **O( n )**
+
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/TreeAndQueries.cpp)
+
 ## LCS
 We use DP and we store in the position <i, j> of the table the LCS of the prefix <0..i> and <0..j> for the first and the second string.
 The base case are that at least one is the empty string. In this case the LCS is 0.
