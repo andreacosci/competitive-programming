@@ -246,12 +246,12 @@ Description
 [Source Code](https://www.google.it)
 
 ## Powerful Array
-Description
+The core part about the Mo's algorithm we used to solve offline query is to build the correct insert and erase function. In this case when we insert an element we calc the answer and we increse its count. When we remove an element we calc the answer and we decrease its count. 
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n sqrt(n) )**
+*Space Complexity:* **O( n )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/PowerfulArray.cpp)
 
 ## LCS
 We use DP and we store in the position <i, j> of the table the LCS of the prefix <0..i> and <0..j> for the first and the second string.
