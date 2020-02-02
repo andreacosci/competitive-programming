@@ -393,12 +393,13 @@ if we let the tree fall to the right is at most contending position with another
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Woodcutters.cpp)
 
 ## Queue
-Description
+Let's sort the pairs by ascending number of ppl ahead. If there is an index i: 0 ≤ i < n that a<i> > i, then answer is "-1". Otherwise the answer exists. 
+We will iterate through the array of sorted pairs from left to right. The height of each person will be his position + 2 minus the number of ppl taller than him, then we increase by 1 the height of each person taller than him previous in queue.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n^2 )**
+*Space Complexity:* **O( n )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/Queue.cpp)
 
 ## X Total Shapes
 We run a DFS to count the number of trees is the forest (the connected component). We use a copy of the matrix as a visited bitmask, and we check for neighboor in the four direction (Nord, Sud, East, West).
