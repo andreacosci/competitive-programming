@@ -308,12 +308,13 @@ if it's a lower bound of an element x, we replace that element with this found.
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LIS.cpp)
 
 ## LBS
-Description
+We do the same thing we did for the LIS. But we store the LIS in a vector so the i-th element is the length of the LIS till i (i is not included). We binary search the lower bound like we did before, the LIS is the position of the element in the list.
+Then we reverse the array and we repeat the process for the LDS. Then we reverse the LDS array. The answer will be the max(LDS<i> + LIS<i>) + 1.
 
-*Time complexity:* **O( :) )**
+*Time complexity:* **O( n log n)**
 *Space Complexity:* **O( n )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LBS.cpp)
 
 ## Vertex Cover
 https://www.geeksforgeeks.org/vertex-cover-problem-set-2-dynamic-programming-solution-tree/
