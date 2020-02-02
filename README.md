@@ -311,17 +311,20 @@ if it's a lower bound of an element x, we replace that element with this found.
 Description
 
 *Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Space Complexity:* **O( n )**
 
 [Source Code](https://www.google.it)
 
 ## Vertex Cover
-Description
+https://www.geeksforgeeks.org/vertex-cover-problem-set-2-dynamic-programming-solution-tree/
+We use a DFS + DP from the root. And foreach new root we consider two possibilities:
+is part of vertex cover: In this case root covers all children edges. We recursively calculate size of vertex covers for left and right subtrees and add 1 to the result (for root).
+Root is not part of vertex cover: In this case, both children of root must be included in vertex cover to cover all root to children edges. We recursively calculate size of vertex covers of all grandchildren and number of children to the result (for two children of root).
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( n^2 )**
+*Space Complexity:* **O( n )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/VertexCover.cpp)
 
 ## LPS
 We reverse the second string and we run the Longest Common Substring beetwen them.
