@@ -452,7 +452,7 @@ We have a special case when none know any language, and we have just to add 1 to
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/LearningLanguages.cpp)
 
 ## Checkposts
-Description
+Find the strongly connected components of the graph (we use the Trajan algorith to do this). From each component we need to choose a node with the lowest cost. If there are more than one nodes with lowest cost, then there are more than one way to choose node from this component.
 
 *Time complexity:* **O( :) )**
 *Space Complexity:* **O( :) )**
