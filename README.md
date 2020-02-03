@@ -457,7 +457,7 @@ Find the strongly connected components of the graph (we use the Trajan algorith 
 *Time complexity:* **O( E + V )**
 *Space Complexity:* **O( E + V )**
 
-[Source Code](https://www.google.it)
+[Source Code](https://github.com/andreacosci/competitive-programming/blob/master/checkposts.cpp)
 
 ## MST
 For this problem we used a well known algorithm: Kruskal Algorith.
