@@ -254,8 +254,12 @@ The core part about the Mo's algorithm we used to solve offline query is to buil
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/PowerfulArray.cpp)
 
 ## TreeAndQueries
-
-
+We store node colors into an array C. C<i> contains the color of the node with dfs beginning time equals to i. Observe that the starting time of a subtree with root i is i itself. Then we use timestamps to remap the queries and use the Mo's algorithm to answer the queries.
+ 
+The insert operation is implemented as follow:
+Increase sum<c<i>> by one (sum counts colour occurencies) then increare sum<c<i>>. Sum<i> stores the number of colors that occur >= i times.
+  
+Remove is similar.
 *Time complexity:* **O( (n + q)sqrt(n) )**
 *Space Complexity:* **O( n + q )**
 
