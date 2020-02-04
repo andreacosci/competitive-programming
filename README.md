@@ -238,10 +238,10 @@ The same algorithm with the segment tree instead.
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/NestedSegmentsST.cpp)
 
 ## Circular RMQ
-Description
+We use a segment tree with lazy propagation. When the query is a regular one (i.e. with range x <= y) we return the minimum in the range. If the query wrap around, we split it into two queries <0, y + 1> and <x, n>, then we compute them and return the mimimum between them. For updating values is the same, in the second case we have to update value inside the two ranges.
 
-*Time complexity:* **O( :) )**
-*Space Complexity:* **O( :) )**
+*Time complexity:* **O( q log n )**
+*Space Complexity:* **O( n )**
 
 [Source Code](https://www.google.it)
 
