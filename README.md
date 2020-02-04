@@ -256,8 +256,8 @@ The core part about the Mo's algorithm we used to solve offline query is to buil
 ## TreeAndQueries
 
 
-*Time complexity:* **O( n sqrt(n) )**
-*Space Complexity:* **O( n )**
+*Time complexity:* **O( (n + q)sqrt(n) )**
+*Space Complexity:* **O( n + q )**
 
 [Source Code](https://github.com/andreacosci/competitive-programming/blob/master/TreeAndQueries.cpp)
 
